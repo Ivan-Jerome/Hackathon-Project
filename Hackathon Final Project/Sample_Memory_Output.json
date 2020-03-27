@@ -1,0 +1,10 @@
+{
+"Usecasename":"Sample",
+"AverageMemory(MB)":102.34,
+"MaxMemory(MB)":76,
+"values":
+{
+"1s":121.46,
+"2s":134.56
+}
+}
