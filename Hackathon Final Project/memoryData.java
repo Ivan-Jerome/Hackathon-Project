@@ -64,7 +64,7 @@ public class memoryData {
 		
 		FileWriter fileWriter = new FileWriter("Memory_Data.json");
 		try {
-			fileWriter.write(obj1.toJSONString()); //writing to an external JSON file
+			fileWriter.write(obj1.toJSONString()); // Writing to an external JSON file
 		} 
 		
 		catch (Exception e) {
