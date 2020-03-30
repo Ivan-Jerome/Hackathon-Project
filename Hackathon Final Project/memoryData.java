@@ -62,5 +62,19 @@ public class memoryData {
 		//Printing the JSON object2
 		System.out.println(object2);
 		
+		FileWriter fileWriter = new FileWriter("Memory_Data.json");
+		try {
+			fileWriter.write(obj1.toJSONString()); //writing to an external JSON file
+		} 
+		
+		catch (Exception e) {
+			e.printStackTrace();
+		} 
+		
+		finally {
+			fileWriter.flush();
+			fileWriter.close();
+		}
+		
 	}
 }
